@@ -2,7 +2,7 @@
 
 {
   spicetifyHistory = {
-    src = "${sources.bc9123}";
+    src = "${sources.bc9123-apps}";
     name = "spicetifyHistory";
   };
 

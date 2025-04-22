@@ -17,7 +17,7 @@
     ];
   };
   sidebarControls = {
-    src = "${sources.AroLucy_2}";
+    src = "${sources.AroLucy_2}/Sidebar-Controls";
     name = "SidebarControls";
    # should be in .spicetify/extensions
     requiredExtensions = [
@@ -94,7 +94,7 @@
 
     requiredExtensions = [
       {
-        src = sources.omniSrc;
+        src = "${sources.getomni}";
         name = "omni.js";
       }
     ];
@@ -196,7 +196,7 @@
   };
 
   burntSienna = {
-    src = "${sources.pjaspinksi}/BurntSienna";
+    src = "${sources.pjaspinski}/BurntSienna";
     name = "BurntSienna";
     extraPkgs = [ pkgs.montserrat ];
   };
@@ -222,17 +222,17 @@
       }
     ];
   };
-  shadeX = {
-    src = "${sources.sanoojes-themes_3}/src";
-    name = "ShadeX";
-    overwriteAssets = true;
-    requiredExtensions = [
-      {
-        src = "${sources.sanoojes-themes_3}/src";
-        name = "theme.js";
-      }
-    ];
-  };
+ # shadeX = {
+ #   src = "${sources.sanoojes-themes_3}/src";
+ #   name = "ShadeX";
+ #   overwriteAssets = true;
+ #   requiredExtensions = [
+ #     {
+ #       src = "${sources.sanoojes-themes_3}/src";
+ #       name = "theme.js";
+ #     }
+ #   ];
+ # };
 
   blossom = {
     src = "${sources.Spicetify-themes}/Blossom";
@@ -316,20 +316,20 @@
     name = "Ziro";
   };
 
-  spotifyDark = {
-    src = "${sources.SyndiShanX-themes}";
-    name = "SpotifyDark";
-    requiredExtensions = [
-      {
-        src = "${sources.SyndiShanX-themes}";
-        name = "rainbow.js";
-      }
-      {
-        src = "${sources.SyndiShanX-themes}";
-        name = "zoomTheme.js";
-      }
-    ];
-  };
+ # spotifyDark = {
+ #   src = "${sources.SyndiShanX-themes}";
+ #   name = "SpotifyDark";
+ #   requiredExtensions = [
+ #     {
+ #       src = "${sources.SyndiShanX-themes}";
+ #       name = "rainbow.js";
+ #     }
+ #     {
+ #       src = "${sources.SyndiShanX-themes}";
+ #       name = "zoomTheme.js";
+ #     }
+ #   ];
+ # };
 
   blackout = {
     src = "${sources.thefoodiee}";

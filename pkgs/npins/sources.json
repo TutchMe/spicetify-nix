@@ -727,10 +727,10 @@
         "owner": "jeroentvb",
         "repo": "spicetify-playlist-icons"
       },
-      "branch": "main",
-      "revision": "a0cdaac6d9f4982538920825b7c3693c87e9bbdf",
-      "url": "https://github.com/jeroentvb/spicetify-playlist-icons/archive/a0cdaac6d9f4982538920825b7c3693c87e9bbdf.tar.gz",
-      "hash": "1n2zp7kwvfkjwcfpivzxxgxk4xrsy6ryy7mc9pgfkz3d9i64hbk3"
+      "branch": "dist",
+      "revision": "7378f0a823eabf1b1a5f9b6237002dcd4631a27a",
+      "url": "https://github.com/jeroentvb/spicetify-playlist-icons/archive/7378f0a823eabf1b1a5f9b6237002dcd4631a27a.tar.gz",
+      "hash": "0h6249z1rxw8q2yrazh2592lbzhpqcicx83vl30dh48z5acpq68h"
     },
     "jeroentvb-extensions_2": {
       "type": "Git",
@@ -739,10 +739,10 @@
         "owner": "jeroentvb",
         "repo": "spicetify-power-bar"
       },
-      "branch": "main",
-      "revision": "2eb4af897e52c17baf05f4d60bf4a8bb5bf3d370",
-      "url": "https://github.com/jeroentvb/spicetify-power-bar/archive/2eb4af897e52c17baf05f4d60bf4a8bb5bf3d370.tar.gz",
-      "hash": "1s5n86kqyx47ka2a9w6akfzxbj35xj34dr1y8xwxxqyp8kagxw30"
+      "branch": "dist",
+      "revision": "648e33489abe106488db6fa791cd6bc6a3169035",
+      "url": "https://github.com/jeroentvb/spicetify-power-bar/archive/648e33489abe106488db6fa791cd6bc6a3169035.tar.gz",
+      "hash": "155ljbbapqj2q2zr0a8axp34q3sjs7mrr4ywcpah2k02wkq89ij4"
     },
     "jeroentvb-extensions_3": {
       "type": "Git",
@@ -1655,6 +1655,18 @@
       "revision": "2c22f3649a82e599be0e7eb506a0f83459caf9e8",
       "url": "https://github.com/Comfy-Themes/Spicetify/archive/2c22f3649a82e599be0e7eb506a0f83459caf9e8.tar.gz",
       "hash": "1f0raq621fs58wrvfqfbvrc91vi5czvdqm6pdw3w5a9ddawm0a1b"
+    },
+    "dracula": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dracula",
+        "repo": "spicetify"
+      },
+      "branch": "main",
+      "revision": "63b2e835d8079d840277defa53651f65deee7d0c",
+      "url": "https://github.com/dracula/spicetify/archive/63b2e835d8079d840277defa53651f65deee7d0c.tar.gz",
+      "hash": "003124pfv83ih5s36hsgig2izk83bfhkqr72221i60y825ms967z"
     },
     "Droidiar": {
       "type": "Git",

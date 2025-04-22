@@ -35,9 +35,9 @@ let
     name = "extractor.js";
   };
 
-  libplayer = {
+  lilplayer = {
     src = "${sources."Afterlifepro"}/dist";
-    name = "libplayer.js";
+    name = "lilplayer.js";
   };
 
   copyLyrics = {
@@ -120,7 +120,7 @@ let
   };
   ##B
   convenientRepeat = {
-    src = "${sources.bc9123}";
+    src = "${sources.bc9123-extensions}";
     name = "convenient-repeat.js";
   };
 
@@ -431,7 +431,7 @@ let
   };
 
   friendify = {
-    src = "${sources.myanlll}/dist";
+    src = "${sources.myanlll}";
     name = "friendify.js";
   };
   ##N
@@ -579,11 +579,11 @@ let
 
   controllifyPlugin = {
     src = "${sources.prochy-exe_1}/dist";
-    name = "controllify-plugin.js";
+    name = "controlify-plugin.js";
   };
-  odesly = {
+  odesli = {
     src = "${sources.prochy-exe_2}/dist";
-    name = "odesly-spicetify.js";
+    name = "odesli-spicetify.js";
   };
   ##Q
   playlistLabels = {
@@ -685,7 +685,7 @@ let
   };
 
   noTrackingLinks = {
-    src = "${sources.SIMULTAN}/Extensions";
+    src = "${sources.SIMULATAN}/Extensions";
     name = "noTrackingLinks.js";
   };
 
@@ -825,7 +825,7 @@ let
   ##U
   removeFriendsActivityMenu = {
     src = "${sources.Undead34}/RemoveFriendsActivityMenu";
-    name = "removeFriendsActivityMenu.js";
+    name = "removeFriendsActivity.js";
   };
   ##V
   autoSkipPattern = {
@@ -852,9 +852,9 @@ let
     src = "${sources.yodaluca23}/HomeWhereYouBelong";
     name = "HomeWhereYouBelong.js";
   };
-  spicyTracer = {
-    src = "${sources.yodaluca23}/SpicyTracer";
-    name = "SpicyTracer.js";
+  spicyTracker = {
+    src = "${sources.yodaluca23}/SpicyTracker";
+    name = "SpicyTracker.js";
   };
   ##Z
 
@@ -879,7 +879,193 @@ let
     // lib.optionalAttrs (alias != ext.name) { ${sanitizeName alias} = ext; };
 in
 {
-  inherit adblockify;
+  inherit
+    neverAutoplay
+    romajaLyrics
+    romajiLyrics
+    quickAddToPlaylist
+    quickAddToQueue
+    hideImages
+    detailsExtractor
+    lilplayer
+    copyLyrics
+    playWithoutContext
+    playingSource
+    randomBadToTheBoneRiff
+    sectionMarker
+    skipAfterTimestamp
+    luckyLP
+    vinylCover
+    friendLikes
+    collapsingLibary
+    autoVolume
+    showQueueDuration
+    alwaysPrivateSession
+    aotyScores
+    volumePlus
+    whereNowPlaying
+    enhancePlus
+    convenientRepeat
+    trackTrim
+    autoSkipTracksByDuration
+    anonymizedRadios
+    catJamSynced
+    partSelector
+    privateSession
+    sideHide
+    ytVideo
+    starRatings
+    smoothPlaybar
+    songViews
+    autoSkip
+    fullScreen
+    playNext
+    savePlaylists
+    volumePercentagedaksh2k
+    customControls
+    requestPlus
+    randomishPlaylistMaker
+    recentTrackPlaylist
+    removeRecentlyPlayedTracks
+    furiganaLyrics
+    lyricsGlow
+    playbarDynamic
+    upcomingSong
+    cssEditor
+    listenTogether
+    whoAdded
+    skipOrPlayLikedSongs
+    hotCues
+    vinylOverlay
+    shareOnTwitter
+    sortPlay
+    displayFullAlbumDate
+    fullAppDisplayModifier
+    goToSong
+    listPlaylistsWithSong
+    playlistIntersection
+    skipStats
+    smoothScrolling
+    collapseSidebar
+    playlistIcons
+    powerBar
+    showGenre
+    volumePercentagejeroentvb
+    simpleBeautifulLyrics
+    sleepTimerUpdated
+    colorOverWebSocket
+    contextSwitcher
+    findDuplicates
+    waveformPlaybackBar
+    cacheCleaner
+    oneko
+    utilities
+    djInfo
+    loopPodcasts
+    whatsThatGenre
+    toggleAutoplay
+    oldLikeButton
+    copyTrackTitles
+    shareOnMisskey
+    bestMoment
+    twitchSpotifi
+    dynamicLightsHomeassistant
+    weightedPlaylists
+    friendify
+    rewind
+    dancingRaccoon
+    volumeProfiles
+    raccoonSynced
+    goveeDynamicLights
+    beautifulFullscreen
+    gamepad
+    immersiveView
+    noControls
+    npvAmbience
+    pixelatedImages
+    playbarClock
+    quickQueue
+    scannables
+    sleepTimerohitstom
+    spotifyBackup
+    toggleDJ
+    tracksToEdges
+    volumePercentageohitstom
+    playlistProxy
+    playbackAPI
+    availabilityMap
+    extendedCopy
+    madeForYouShortcut
+    romajiConvert
+    allOfArtist
+    moreNowPlayingInfo
+    nowPlayingReleaseDate
+    trackTags
+    copyToClipboard
+    queueShuffler
+    reloadPage
+    controllifyPlugin
+    odesli
+    playlistLabels
+    youtubeKeybinds
+    discographyToPlaylist
+    fullQueueClear
+    removeUnplayableSongs
+    skipSongPart
+    startupPage
+    romajin
+    autoPlay
+    adblockify
+    featureShuffle
+    formatColors
+    oldSidebar
+    phraseToPlaylist
+    songStats
+    wikify
+    writeify
+    resumePlaylist
+    dailyMixUrlFixer
+    libXReborn
+    alwaysPlayVideos
+    ledFxColorSync
+    noTrackingLinks
+    addToQueueTop
+    autoSkipExplicit
+    autoSkipVideo
+    bookmark
+    fullAppDisplay
+    keyboardShortcut
+    loopyLoop
+    popupLyrics
+    shufflePlus
+    trashbin
+    webnowplaying
+    beautifulLyricsSpikerko
+    spicyLyrics
+    theBirdPingpongballizer
+    seekOnScroll
+    beautifulLyricssurfbryce
+    copyPlaylistInfo
+    legacyLook
+    lastfmStats
+    playRandom
+    spotispy
+    coverAmbience
+    queueTime
+    sleepTimerTheblockbuster1
+    toggleFriendActivity
+    toggleLyricsPlusFullscreen
+    hidePodcasts
+    xcxcovers
+    seekSongKeybinds
+    pictureInPicture
+    removeFriendsActivityMenu
+    autoSkipPattern
+    betterSpotifyGenres
+    oldCoverClick
+    betterAOTYScores
+    homeWhereYouBelong
+    spicyTracker;
 }
 # append .js
 //  lib.attrsets.mergeAttrsList (
@@ -891,7 +1077,7 @@ in
       quickAddToQueue
       hideImages
       detailsExtractor
-      libplayer
+      lilplayer
       copyLyrics
       playWithoutContext
       playingSource
@@ -1009,7 +1195,7 @@ in
       queueShuffler
       reloadPage
       controllifyPlugin
-      odesly
+      odesli
       playlistLabels
       youtubeKeybinds
       discographyToPlaylist
@@ -1069,7 +1255,7 @@ in
       oldCoverClick
       betterAOTYScores
       homeWhereYouBelong
-      spicyTracer
+      spicyTracker
     ]
   )
 # aliases for weirdly named extension files
@@ -1097,3 +1283,4 @@ in
 // (mkExtAlias "starRatings.js" starRatings)
 // (mkExtAlias "queueTime.js" queueTime)
 // (mkExtAlias "simpleBeautifulLyrics.js" simpleBeautifulLyrics)
+// (mkExtAlias "romajaLyrics.js" romajaLyrics)
