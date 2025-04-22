@@ -86,7 +86,7 @@ in
                 rev = "02badb180c902f986a4ea4e4033e69fe8eec6a55";
                 hash = "sha256-KD9VfHtlN0BIHC4inlooxw5XC4xlHNC5evASRqP7pUA=";
               }
-              Or a relative path 
+              Or a relative path
 
               ./myTheme
             '';
@@ -157,7 +157,12 @@ in
       };
     };
 
-    spotifyPackage = lib.mkPackageOption pkgs "spotify" { };
+   # spotifyPackage = lib.mkPackageOption pkgs "spotify" { };
+    spotifyPackage = lib.mkOption {
+      type = lib.types.package;
+      default = pkgs.spotify;
+      description = "The Spotify package to use.";
+    };
 
     spicetifyPackage = lib.mkPackageOption pkgs "spicetify-cli" { };
 
