@@ -577,7 +577,7 @@ let
     name = "reloadPage.js";
   };
 
-  controllifyPlugin = {
+  controlifyPlugin = {
     src = "${sources.prochy-exe_1}/dist";
     name = "controlify-plugin.js";
   };
@@ -1004,7 +1004,7 @@ in
     copyToClipboard
     queueShuffler
     reloadPage
-    controllifyPlugin
+    controlifyPlugin
     odesli
     playlistLabels
     youtubeKeybinds
@@ -1194,7 +1194,7 @@ in
       copyToClipboard
       queueShuffler
       reloadPage
-      controllifyPlugin
+      controlifyPlugin
       odesli
       playlistLabels
       youtubeKeybinds
