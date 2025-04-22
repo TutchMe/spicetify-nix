@@ -27,7 +27,7 @@ builtins.mapAttrs
         fetchzip {
           inherit url;
           sha256 = hash;
-          extension = "tar";
+          extension = "zip";
         };
       mkGitSource =
         {

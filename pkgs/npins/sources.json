@@ -121,16 +121,18 @@
       "hash": "1hds4h441qps1m5ak97hypxsihk3jw5n31gq79gmz0lmf9a8gp5d"
     },
     "Spicetify-marketplace": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Spicetify",
-        "repo": "spicetify-marketplace"
-      },
-      "branch": "dist",
-      "revision": "e431eaaf789bac9e59d439e3ee68b09a580eb444",
-      "url": "https://github.com/Spicetify/spicetify-marketplace/archive/e431eaaf789bac9e59d439e3ee68b09a580eb444.tar.gz",
-      "hash": "18p3spslqbyn0w968rih4h2s82df6wvqs2fxxbwl18wy3vqnwgql"
+      "type": "Channel",
+      "url": "https://github.com/spicetify/marketplace/releases/download/v1.0.5/marketplace.zip",
+      "hash": "1zv4ch47f3ry2n43j5hb0pmhnc27h7pl2p8j8xadz9z1qbc1fy9s",
+      "metadata": {
+        "repository": {
+          "type": "GitHub",
+          "owner": "Spicetify",
+          "repo": "spicetify-marketplace"
+        },
+        "branch": "main",
+        "revision": "c5046d9fd7822a2c15a8f0e13b7a57440a680819"
+      }
     },
     "theRealPadster-apps": {
       "type": "Git",

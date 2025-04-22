@@ -42,7 +42,7 @@ repositories = [
     ("ossd-s24", "spicetify-study-banger-app", "main", "11034e6bc08fd55c188dfef518f15e61c1e1dece", ""),
     ("Sowgro", "betterLibrary", "main", "c8438030837ce904cf8dc5308cfae15dc793aebd", ""),
     ("Spicetify", "cli", "main", "465f6e36d02d3b142a871856b3ab7236fa31c263", "-cli"),
-    ("Spicetify", "spicetify-marketplace", "dist", "e431eaaf789bac9e59d439e3ee68b09a580eb444", "-marketplace"),
+    ("Spicetify", "spicetify-marketplace", "main", "e431eaaf789bac9e59d439e3ee68b09a580eb444", "-marketplace"),
     ("theRealPadster", "name-that-tune", "dist", "858b98baa97e486a8589b26164c9eb1aa3605282", "-apps"),
     #("owner", "repo", "branch", "revision", "suffix (for multiple repos with same owner)"),
 ]
