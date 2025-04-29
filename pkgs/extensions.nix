@@ -684,10 +684,10 @@ let
     name = "ledfx-color-sync.js";
   };
 
-  noTrackingLinks = {
-    src = "${sources.SIMULATAN}/Extensions";
-    name = "noTrackingLinks.js";
-  };
+ # noTrackingLinks = {
+ #   src = "${sources.SIMULATAN}/Extensions";
+ #   name = "noTrackingLinks.js";
+ # };
 
   addToQueueTop = {
     src = "${sources.Socketlike}/addToQueueTop";
