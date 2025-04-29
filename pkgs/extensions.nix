@@ -1028,7 +1028,7 @@ in
     libXReborn
     alwaysPlayVideos
     ledFxColorSync
-    noTrackingLinks
+   # noTrackingLinks
     addToQueueTop
     autoSkipExplicit
     autoSkipVideo
@@ -1218,7 +1218,7 @@ in
       libXReborn
       alwaysPlayVideos
       ledFxColorSync
-      noTrackingLinks
+     # noTrackingLinks
       addToQueueTop
       autoSkipExplicit
       autoSkipVideo
